@@ -13,8 +13,8 @@ const Carrousel = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 8500,
-    autoplaySpeed: 4000,
+    speed: 5000,
+    autoplaySpeed: 3000,
     cssEase: "linear",
   };
 
