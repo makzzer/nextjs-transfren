@@ -99,7 +99,7 @@ const Navbar: React.FC = () => {
               href="aboutus"
               className="text-black hover:bg-gray-200 px-3 py-2 rounded-md text-lg font-medium"
             >
-              Quiénes Somos
+              Nosotros
             </Link>
             <Image
             className="mt-1"
@@ -120,18 +120,18 @@ const Navbar: React.FC = () => {
       >
         <div className="px-2 pt-2 pb-3 space-y-1">
           <Link
-            href="/"
+            href="servicios"
             className="text-black hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
             onClick={() => setIsOpen(false)}
           >
             Servicios
           </Link>
           <Link
-            href="/quienes-somos"
+            href="/aboutus"
             className="text-black hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
             onClick={() => setIsOpen(false)}
           >
-            Quiénes Somos
+            Nosotros
           </Link>
 
         </div>
