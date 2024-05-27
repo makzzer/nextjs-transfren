@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
             </div>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col items-center justify-center">
             <p className="text-sm text-center">&copy; {new Date().getFullYear()} Todos los derechos reservados</p>
-            <p className="text-sm text-center">Powered by nextJs  <span role="img" aria-label="Love"></span></p>
+            {/*<p className="text-sm text-center">Powered by nextJs  <span role="img" aria-label="Love"></span></p>*/}
           </div>
         </div>
       </footer>
