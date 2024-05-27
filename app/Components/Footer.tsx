@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer: React.FC = () => {
     return (
       <footer className="bg-white text-dark pb-8 pt-0">
@@ -8,8 +10,12 @@ const Footer: React.FC = () => {
         {/* Footer Bottom */}
         <div className="mt-8 border-t border-gray-700">
         <div className="flex mt-4 items-center justify-center md:col-span-1">
-        <span className="font-semibold text-4xl text-black">
+          <Link href="/">
+          <span className="font-semibold text-4xl text-black">
                 <span className="text-red-600">T</span>ransfren.</span>
+          
+          </Link>
+
               
             </div>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col items-center justify-center">
