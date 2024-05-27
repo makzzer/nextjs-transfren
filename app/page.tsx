@@ -4,15 +4,15 @@ import React from "react";
 import Card from "./Components/Card";
 import Carrousel from "./Components/Carrousel";
 
-
 export default function Home() {
   return (
     <>
 
 
-      <Carrousel />
-
-      <main className="bg-gray-50">
+      <main className="bg-gray-50 mx-auto">
+      <div className="overflow-hidden">
+        <Carrousel />
+      </div>
         <h1 className="py-4 uppercase md:mx-none text-4xl md:text-6xl md:pl-10  md:text-center mb-6 md:mt-4 font-extrabold text-gray-900 text-center">
           Nuestros clientes{" "}
         </h1>
