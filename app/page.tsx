@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
 
         <div className="md:p-2 p-0 md:min-w-full">
-          <div className="grid md:px-12 px-6 grid-cols-1 md:grid-cols-3 md:gap-4 gap-8 pt-4 ">
+          <div className="grid md:px-12 px-6 grid-cols-1 lg:grid-cols-3 md:gap-4 gap-8 pt-4 ">
             <Card
               title="Lamborghini Aventador"
               description="Un auto deportivo de lujo con un diseño elegante y un rendimiento increíble."
@@ -38,7 +38,7 @@ export default function Home() {
         </div>
 
         {/* Integración del componente SocialCard */}
-        <div className="flex md:flex-row flex-col justify-center mt-10">
+        <div className="flex lg:flex-row flex-col justify-center mt-10">
           <SocialCard url="https://www.instagram.com/tu-cuenta-de-instagram" />
           <SocialCard url="https://www.facebook.com/tu-pagina-de-facebook" />
           <SocialCard url="https://web.whatsapp.com/" />

@@ -24,7 +24,6 @@ const Carrousel = () => {
         <Slider {...settings}>
           <div>
             <Image
-
               src="/maclaren.webp"
               alt="macla"
               className="w-full transition-transform duration-200 md:min-h-[400px] max-h-screen  ease-in-out transform hover:scale-110"

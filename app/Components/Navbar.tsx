@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
             >
               <span className="font-semibold text-4xl text-black">
                 <span className="text-red-600">T</span>ransfren.
-                <p className="ms-[6.5px] font-thin text-sm text-gray-400">
+                <p className="ms-[6.5px] font-medium text-sm text-gray-400">
                   Frenos y embragues
                 </p>
               </span>
