@@ -21,8 +21,8 @@ export default function Home() {
         </div>
       </div>
 
-      <main className="">
-        <h1 className="py-4 uppercase md:mx-none text-4xl md:text-6xl md:pl-10 font-semibold text-center md:text-center mb-6">
+      <main className="bg-gray-50">
+        <h1 className="py-4 uppercase md:mx-none text-4xl md:text-6xl md:pl-10  md:text-center mb-6 md:mt-8 font-extrabold text-gray-900 text-center">
           Nuestros clientes{" "}
         </h1>
 
@@ -50,11 +50,12 @@ export default function Home() {
 
 
         {/* Integración del componente SocialCard */}
-        <div className="flex md:flex-row flex-col justify-center mt-8">
+        <div className="flex md:flex-row flex-col justify-center mt-10">
           <SocialCard url="https://www.instagram.com/tu-cuenta-de-instagram" />
           <SocialCard url="https://www.facebook.com/tu-pagina-de-facebook" />
-          <SocialCard url="https://www.twitch.tv/tu-canal-de-twitch" />
+          <SocialCard url="https://web.whatsapp.com/" />
           <SocialCard url="https://www.youtube.com/tu-canal-de-youtube" />
+          <SocialCard url="https://web.telegram.org/" />
         </div>
       </main>
     </>
