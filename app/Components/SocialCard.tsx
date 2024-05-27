@@ -15,7 +15,7 @@ const SocialCard: React.FC<SocialCardProps> = ({ url }) => {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center md:min-w-[300px] justify-center bg-white rounded-lg shadow-md p-4 mx-2 my-2"
+      className="flex items-center md:min-w-[300px] justify-center bg-white rounded-lg shadow-md p-4 mx-2 my-2 ease-in-out transform hover:scale-105"
     >
       <SocialIcon url={url}/>
       

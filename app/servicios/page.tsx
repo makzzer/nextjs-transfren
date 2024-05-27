@@ -31,7 +31,7 @@ const Servicios: FC = () => {
           {services.map((service, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="relative w-full h-48">
-                <Image src={service.image} alt={service.title} layout="fill" objectFit="cover" className="rounded-t-lg"/>
+                <Image src={service.image} alt={service.title} layout="fill" objectFit="cover" className="rounded-t-lg ease-in-out transform hover:scale-110"/>
               </div>
               <h3 className="mt-6 text-2xl font-bold text-gray-900">{service.title}</h3>
               <p className="mt-4 text-gray-600">{service.description}</p>
