@@ -2,38 +2,27 @@ import Image from "next/image";
 import SocialCard from "./Components/SocialCard"; // Importar el componente SocialCard
 import React from "react";
 import Card from "./Components/Card";
+import Carrousel from "./Components/Carrousel";
+
 
 export default function Home() {
   return (
     <>
-      <div className="transition-all duration-500 max-w-6xl mx-auto md:flex md:flex-col items-center container justify-between content-center md:px-10 ">
-        <div className="md:mb-0 mb-8 w-screen">
-          <Image
-            className=""
-            src="/lambo.jpg"
-            width={1920}
-            height={1080}
-            alt="Foto de lamborghini"
-            objectFit="cover"
-            quality={100}
-            priority
-          />
-        </div>
-      </div>
+
+
+      <Carrousel />
 
       <main className="bg-gray-50">
-        <h1 className="py-4 uppercase md:mx-none text-4xl md:text-6xl md:pl-10  md:text-center mb-6 md:mt-8 font-extrabold text-gray-900 text-center">
+        <h1 className="py-4 uppercase md:mx-none text-4xl md:text-6xl md:pl-10  md:text-center mb-6 md:mt-4 font-extrabold text-gray-900 text-center">
           Nuestros clientes{" "}
         </h1>
 
         <div className="md:p-2 p-0 md:min-w-full">
           <div className="grid md:px-12 px-6 grid-cols-1 md:grid-cols-3 md:gap-4 gap-8 pt-4 ">
             <Card
-              
               title="Lamborghini Aventador"
               description="Un auto deportivo de lujo con un diseño elegante y un rendimiento increíble."
               imageUrl="/aventator.jpg"
-              
             />
             <Card
               title="Ferrari LaFerrari"
@@ -47,7 +36,6 @@ export default function Home() {
             />
           </div>
         </div>
-
 
         {/* Integración del componente SocialCard */}
         <div className="flex md:flex-row flex-col justify-center mt-10">
