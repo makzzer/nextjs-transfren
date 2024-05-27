@@ -26,7 +26,7 @@ export default function Home() {
           Nuestros clientes{" "}
         </h1>
 
-        <div className="p-2 min-w-full">
+        <div className="md:p-2 p-0md:min-w-full">
           <div className="grid px-12 grid-cols-1 md:grid-cols-3 gap-4">
             <Card
               

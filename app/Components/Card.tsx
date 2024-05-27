@@ -13,9 +13,9 @@ const Card: FC<CardProps> = ({ title, description, imageUrl }) => {
       <Image 
         src={imageUrl} 
         alt={title} 
-        className="w-full" 
+        className="w-full md:min-h-[400px] md:max-h-[400px]" 
         width={400}
-        height={300}
+        height={200}
         layout="responsive"
       />
       <div className="px-6 py-4">
