@@ -33,6 +33,14 @@ const Navbar: React.FC = () => {
 
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
+          <Image
+            className="mb-4 md:hidden"
+            src="/sinfondo2.png"
+            width={40}
+            height={40}
+            alt="Logo transfren"
+            quality={100}
+          ></Image>
             <Link
               href="/"
               className="flex items-center font-semibold text-4xl text-black"
@@ -44,6 +52,7 @@ const Navbar: React.FC = () => {
                 </p>
               </span>
             </Link>
+
           </div>
           {/* Hamburger Menu Button */}
           <div className="flex items-center sm:hidden">
