@@ -9,7 +9,7 @@ interface CardProps {
 
 const Card: FC<CardProps> = ({ title, description, imageUrl }) => {
   return (
-    <div className=" flex flex-col gap-2 min-w-full overflow-hidden shadow-lg md:m-4">
+    <div className=" flex flex-col gap-2 min-w-full overflow-hidden shadow-lg md:m-4 rounded-lg">
       <Image 
         src={imageUrl} 
         alt={title} 

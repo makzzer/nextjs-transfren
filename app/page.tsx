@@ -26,8 +26,8 @@ export default function Home() {
           Nuestros clientes{" "}
         </h1>
 
-        <div className="md:p-2 p-0md:min-w-full">
-          <div className="grid px-12 grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="md:p-2 p-0 md:min-w-full">
+          <div className="grid md:px-12 px-6 grid-cols-1 md:grid-cols-3 md:gap-4 gap-8 pt-4 ">
             <Card
               
               title="Lamborghini Aventador"
