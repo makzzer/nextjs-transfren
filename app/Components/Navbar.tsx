@@ -8,13 +8,19 @@ import Image from "next/image";
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
 
   const toggleMenu = () => {
     setIsOpen((prevIsOpen) => !prevIsOpen);
   };
 
   const handleClickOutside = (event: MouseEvent) => {
-    if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+    if (
+      menuRef.current && 
+      !menuRef.current.contains(event.target as Node) &&
+      buttonRef.current && 
+      !buttonRef.current.contains(event.target as Node)
+    ) {
       setIsOpen(false);
     }
   };
@@ -33,14 +39,14 @@ const Navbar: React.FC = () => {
 
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-          <Image
-            className="mb-4 md:hidden"
-            src="/sinfondo2.png"
-            width={40}
-            height={40}
-            alt="Logo transfren"
-            quality={100}
-          ></Image>
+            <Image
+              className="mb-4 md:hidden"
+              src="/sinfondo2.png"
+              width={40}
+              height={40}
+              alt="Logo transfren"
+              quality={100}
+            />
             <Link
               href="/"
               className="flex items-center font-semibold text-4xl text-black"
@@ -52,13 +58,13 @@ const Navbar: React.FC = () => {
                 </p>
               </span>
             </Link>
-
           </div>
           {/* Hamburger Menu Button */}
           <div className="flex items-center sm:hidden">
             <button
               onClick={toggleMenu}
               type="button"
+              ref={buttonRef}
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-black hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded={isOpen ? "true" : "false"}
@@ -111,13 +117,13 @@ const Navbar: React.FC = () => {
               Nosotros
             </Link>
             <Image
-            className="mt-1"
-            src="/sinfondo2.png"
-            width={65}
-            height={65}
-            alt="Logo transfren"
-            quality={100}
-          ></Image>
+              className="mt-1"
+              src="/sinfondo2.png"
+              width={65}
+              height={65}
+              alt="Logo transfren"
+              quality={100}
+            />
           </div>
         </div>
       </div>
@@ -142,7 +148,6 @@ const Navbar: React.FC = () => {
           >
             Nosotros
           </Link>
-
         </div>
       </div>
     </nav>
