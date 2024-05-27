@@ -5,17 +5,17 @@ const services = [
   {
     title: 'Rectificaciones de Discos',
     description: 'Ofrecemos servicios de rectificación de discos para asegurar que tus frenos funcionen de manera óptima y segura.',
-    image: '/lambo3.jpeg'
+    image: '/recti.jpg'
   },
   {
     title: 'Venta de Insumos',
     description: 'Tenemos una amplia variedad de insumos de alta calidad para tus frenos, asegurando la máxima durabilidad y rendimiento.',
-    image: '/lambo3.jpeg'
+    image: '/venta.jpg'
   },
   {
     title: 'Reparaciones',
     description: 'Realizamos todo tipo de reparaciones de frenos para mantener tu vehículo en perfectas condiciones de seguridad.',
-    image: '/lambo3.jpeg'
+    image: '/repa.jpg'
   }
 ];
 

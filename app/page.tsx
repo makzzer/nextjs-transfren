@@ -29,19 +29,21 @@ export default function Home() {
         <div className="p-2 min-w-full">
           <div className="grid px-12 grid-cols-1 md:grid-cols-3 gap-4">
             <Card
+              
               title="Lamborghini Aventador"
               description="Un auto deportivo de lujo con un diseño elegante y un rendimiento increíble."
-              imageUrl="/lambo3.jpeg"
+              imageUrl="/aventator.jpg"
+              
             />
             <Card
               title="Ferrari LaFerrari"
               description="Un superdeportivo híbrido que combina potencia y eficiencia."
-              imageUrl="/lambo3.jpeg"
+              imageUrl="/lafe.jpg"
             />
             <Card
               title="Porsche 911"
               description="El clásico Porsche 911, conocido por su manejo preciso y su estilo icónico."
-              imageUrl="/lambo3.jpeg"
+              imageUrl="/porsche911.jpg"
             />
           </div>
         </div>

@@ -15,7 +15,7 @@ const Card: FC<CardProps> = ({ title, description, imageUrl }) => {
         alt={title} 
         className="w-full" 
         width={400}
-        height={200}
+        height={300}
         layout="responsive"
       />
       <div className="px-6 py-4">
