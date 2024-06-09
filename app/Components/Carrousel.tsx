@@ -24,7 +24,7 @@ const Carrousel = () => {
         <Slider {...settings}>
           <div>
             <Image
-              src="/maclaren.webp"
+              src="/2.jpeg"
               alt="macla"
               className="w-full transition-transform duration-200 md:min-h-[400px] max-h-screen  ease-in-out transform hover:scale-110"
               width={400}
@@ -34,7 +34,7 @@ const Carrousel = () => {
           </div>
           <div>
             <Image
-              src="/redbull.jpg"
+              src="/14.jpeg"
               alt="redbu"
               className="w-full transition-transform duration-200 md:min-h-[400px] max-h-screen  ease-in-out transform hover:scale-110"
               width={400}
@@ -44,7 +44,7 @@ const Carrousel = () => {
           </div>
           <div>
             <Image
-              src="/ferrarif1.jpg"
+              src="/13.jpeg"
               alt="ferraf1"
               className="w-full transition-transform duration-200 md:min-h-[400px] max-h-screen  ease-in-out transform hover:scale-110"
               width={400}

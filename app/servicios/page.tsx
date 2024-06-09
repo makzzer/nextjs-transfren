@@ -10,12 +10,12 @@ const services = [
   {
     title: 'Venta de Insumos',
     description: 'Tenemos una amplia variedad de insumos de alta calidad para tus frenos, asegurando la máxima durabilidad y rendimiento.',
-    image: '/venta.jpg'
+    image: '/5.jpeg'
   },
   {
     title: 'Reparaciones',
     description: 'Realizamos todo tipo de reparaciones de frenos para mantener tu vehículo en perfectas condiciones de seguridad.',
-    image: '/repa.jpg'
+    image: '/10.jpeg'
   }
 ];
 

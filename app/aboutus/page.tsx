@@ -11,13 +11,13 @@ const AboutUs = () => {
           </p>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="flex flex-col items-center text-center">
-              <Image src="/hector.png" alt="Padre" width={160} height={160} className="rounded-full"/>
+              <Image src="/3.jpeg" alt="Padre" width={160} height={160} className="rounded-full md:min-h-[220px]"/>
               <h3 className="mt-6 text-2xl font-bold text-gray-900">Hector Diaz</h3>
               <p className="mt-2 text-gray-600">Fundador y Experto en Frenos</p>
               <p className="mt-4 text-gray-600">Con más de 30 años de experiencia en la industria, Hector es el corazón y el alma de nuestro taller.</p>
             </div>
             <div className="flex flex-col items-center text-center">
-              <Image src="/fede.png" alt="Hijo" width={160} height={160} className="rounded-full"/>
+              <Image src="/f.jpeg" alt="Hijo" width={160} height={160} className="rounded-full md:min-h-[220px]"/>
               <h3 className="mt-6 text-2xl font-bold text-gray-900">Federico Diaz</h3>
               <p className="mt-2 text-gray-600">Mecánico y Técnico en Frenos</p>
               <p className="mt-4 text-gray-600">Fede ha seguido los pasos de su padre y aporta energía y conocimiento moderno al negocio.</p>

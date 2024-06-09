@@ -18,19 +18,19 @@ export default function Home() {
         <div className="md:p-2 p-0 md:min-w-full">
           <div className="grid md:px-12 px-6 grid-cols-1 lg:grid-cols-3 md:gap-4 gap-8 pt-4 ">
             <Card
-              title="Lamborghini Aventador"
-              description="Un auto deportivo de lujo con un diseño elegante y un rendimiento increíble."
-              imageUrl="/aventator.jpg"
+              title="Audi Q3"
+              description="Ralizamos rectificación de discos y cambio de pastillas en este lujoso modelo alemán."
+              imageUrl="/111.jpeg"
             />
             <Card
-              title="Ferrari LaFerrari"
-              description="Un superdeportivo híbrido que combina potencia y eficiencia."
-              imageUrl="/lafe.jpg"
+              title="Peugeot 208 Feline"
+              description="Realizamos una rectificación de discos delanteros en uno de los autos mas vendidos de Argentina."
+              imageUrl="/444.jpeg"
             />
             <Card
-              title="Porsche 911"
-              description="El clásico Porsche 911, conocido por su manejo preciso y su estilo icónico."
-              imageUrl="/porsche911.jpg"
+              title="Ford Americana"
+              description="Relizamos una restauración en este clásico americano, reparaciones y cambio de pastillas."
+              imageUrl="/222.jpeg"
             />
           </div>
         </div>
